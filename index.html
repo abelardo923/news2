@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Papers</title>
+    <link rel="stylesheet" href="paper.css" />
+    <script
+      src="https://kit.fontawesome.com/3fe6d55917.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img src="/assets/image/news2.png" width="120px" />
+      <div class="inputSearch desktop">
+        <form id="searchForm">
+          <input type="text" placeholder="type to search..." id="searchInput" />
+          <span> <i class="fa-solid fa-magnifying-glass"></i></span>
+        </form>
+      </div>
+      <nav class="desktop">
+        <ul>
+          <li onclick="Search('ipl2023')">IPL 2023</li>
+          <li onclick="Search('tech')">Tech</li>
+          <li onclick="Search('Food')">Food</li>
+          <li onclick="Search('movies')">Movies</li>
+          <li onclick="Search('business')">Business</li>
+        </ul>
+      </nav>
+      <div class="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <!---->
+      <div class="mobile hidden">
+        <nav>
+          <ul>
+            <li onclick="Search('ipl2023')">IPL 2023</li>
+            <li onclick="Search('tech')">Tech</li>
+            <li onclick="Search('Food')">Food</li>
+            <li onclick="Search('movies')">Movies</li>
+            <li onclick="Search('business')">Business</li>
+          </ul>
+        </nav>
+        <div class="inputSearch">
+          <form id="searchFormMobile" id="searchInputMobile">
+            <input type="text" placeholder="type to search...">
+            <span> 
+              <i class="fa-solid fa-magnifying-glass"></i>
+            <span>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <!---  MAIN -->
+    <main>
+      <!-- <div class="card">
+        <img src="" />
+        <h4>All the news from Ubisoft Forward 2023</h4>
+        <div class="publishByDate">
+          <p>Google News</p>
+          <span>•</span>
+          <p>12-06-2023</p>
+        </div>
+        <div class="desc">
+          Ubisoft Forward 2023 is set to feature news and updates on all of
+          Ubisoft’s popular franchises, including Prince of Persia, The
+          Division, and of course, Assassin’s Creed.
+        </div>
+      </div> -->
+    </main>
+
+    <script src="paper.js"></script>
+  </body>
+</html>
